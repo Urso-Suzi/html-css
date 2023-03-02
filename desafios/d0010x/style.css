@@ -1,0 +1,40 @@
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #063D1E;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Bebas Neue', cursive;
+    --font2: 'Android', sans-serif;  
+
+}
+header{
+    padding: 1px  1px 1px 1px;
+    background-color: var(--cor4);
+    
+}
+.title1{
+    @font-face {
+        font-family: ;
+        src: url(idroid);
+    }
+   font-family: var(--font0);
+   font-size: 2em;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0,  0.0466);
+}
+.text1{
+    font-size: 1em;
+    margin: 50px;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    font-family: var(--font0);
+    background-color: var(--cor1);
+    color: var(--cor0);
+    min-width: auto;
+    max-width: auto;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens felixiveis</title>
+</head>
+<body>
+<h1>Teste de imagem</h1>
+<p>Tente abrir este site em dispositivos diferentes ou tente diminuir ou aumentar este navegador.</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagem flexivel">
+</picture>
+
+<h1>Reproduzindo audios</h1>
+<p>Vamos aprender a reproduzir audio em HTML.5</p>
+<audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+
+<audio preload="metadata"  controls  loop>
+<source src="midia/guanacast-33.mp3" type="audio/mpeg">
+<p>infelimente seu navegador não consegue reproduzir áudio 
+    <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo</a>
+</p>
+</audio>
+<p>infelizmente seu navegador não consegue reproduzir áudio 
+    <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo</a>
+</p>
+<h2>Reproduzindo vídeo</h2>
+<video width="200" poster="imagens/limoes-capa.png" controls >
+<source src="midia/pexels-olya-kobruseva-8943204.mp4" type="video/mp4">
+</video>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TCeyIwFGkYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
